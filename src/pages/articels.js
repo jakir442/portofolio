@@ -4,7 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
-import articel1 from "../../public/images/articles/pagination component in reactjs.jpg";
+// import nextjs from "../../public/NextJS-Ebook.pdf";
+import nextjs from "../../public/images/articles/nextjs.png";
 import articel2 from "../../public/images/articles/create loading screen in react js.jpg";
 import { motion, useMotionValue } from "framer-motion";
 import articel3 from "../../public/images/articles/create modal component in react using react portals.png";
@@ -113,12 +114,12 @@ const articels = () => {
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summery="Learn how to build a custom pagination component in ReactJS from scratch. 
-                Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+              title="Documentation for the NextJS framework"
+              summery="The chapter concludes with the recommendation to shift focus to
+              Next.js for building modern web applications."
               time="9 min read"
-              link="/"
-              img={articel1}
+              link="https://drive.google.com/file/d/1DVsqsio4Or9VPR3e13cFkzkFVKJDekvK/preview"
+              img={nextjs}
             />
             <FeaturedArticle
               title="Build A Custom Pagination Component In Reactjs From Scratch"
@@ -148,36 +149,6 @@ const articels = () => {
               date="January 14, 2024"
               link="/"
               img={articel5}
-            />
-            <Articel
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="January 14, 2024"
-              link="/"
-              img={articel3}
-            />
-            <Articel
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="January 14, 2024"
-              link="/"
-              img={articel3}
-            />
-            <Articel
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="January 14, 2024"
-              link="/"
-              img={articel3}
-            />
-            <Articel
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="January 14, 2024"
-              link="/"
-              img={articel3}
-            />
-            <Articel
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="January 14, 2024"
-              link="/"
-              img={articel3}
             />
           </ul>
         </Layout>
