@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import webgallery from "../../public/images/projects/webgallery.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -133,38 +134,35 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                title="Website Gallery Foto"
+                img={webgallery}
+                summary="Gallery application created using HTML, PHP, CSS, JavaScript, and SQL. It is used to store photos 
+                online and you can comment on photos of other people who have uploaded photos."
+                link="https://tes19.000webhostapp.com/"
+                github="https://github.com/jakir442/website_gallery_foto"
+                type="Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                title="Website Gallery Foto"
+                img={webgallery}
+                summary="Gallery application created using HTML, PHP, CSS, JavaScript, and SQL. It is used to store photos 
+                online and you can comment on photos of other people who have uploaded photos."
+                link="https://tes19.000webhostapp.com/"
+                github="https://github.com/jakir442/website_gallery_foto"
+                type="Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                title="Website Gallery Foto"
+                img={webgallery}
+                summary="Gallery application created using HTML, PHP, CSS, JavaScript, and SQL. It is used to store photos 
+                online and you can comment on photos of other people who have uploaded photos."
+                link="https://tes19.000webhostapp.com/"
+                github="https://github.com/jakir442/website_gallery_foto"
+                type="Project"
               />
             </div>
 
