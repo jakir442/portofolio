@@ -5,8 +5,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import webgallery from "../../public/images/projects/webgallery.png";
+import yummyhubCoffe from "../../public/images/projects/yummyhub-coffe.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -145,12 +145,12 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Website Gallery Foto"
-                img={webgallery}
+                title="YummyHub Coffee"
+                img={yummyhubCoffe}
                 summary="Gallery application created using HTML, PHP, CSS, JavaScript, and SQL. It is used to store photos 
                 online and you can comment on photos of other people who have uploaded photos."
-                link="https://tes19.000webhostapp.com/"
-                github="https://github.com/jakir442/website_gallery_foto"
+                link="https://jakir442.github.io/coffe1/"
+                github="https://github.com/jakir442/"
                 type="Project"
               />
             </div>
@@ -165,8 +165,16 @@ const projects = () => {
                 type="Project"
               />
             </div>
-
-            
+            <div className="col-span-12">
+              <FeaturedProject
+                title="YummyHub Coffee"
+                img={yummyhubCoffe}
+                summary="Welcome to YummyHub, your cozy coffee haven in Jakarta. We offer a delightful selection of specialty coffees, from classic espressos to creative lattes, all crafted by our skilled baristas. Pair your drink with our freshly baked pastries, healthy snacks, or refreshing smoothies. Enjoy our warm and inviting ambiance, perfect for relaxing or working with our free Wi-Fi. Join our loyalty program for exclusive discounts. Visit us at H. Imam Sapi’ie: pahlawan kemerdekaan (Jalan Senen Raya), open every day from 05:00 to 22:00. Contact us at jakirapriyan@gmail.com. We look forward to serving you!"
+                link="https://jakir442.github.io/coffe1/"
+                github="https://github.com/jakir442/"
+                type="Project"
+              />
+            </div>
           </div>
         </Layout>
       </main>
